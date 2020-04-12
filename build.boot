@@ -1,4 +1,4 @@
-(def +version+ "0.1.2-SNAPSHOT")
+(def +version+ "0.1.2")
 
 (set-env!
   :source-paths #{"src"}
@@ -67,10 +67,10 @@
 
 (task-options!
   push {:ensure-branch nil}
-  pom {:project     'yurt
+  pom {:project     'coreagile/yurt
        :version     +version+
        :description "high quality mounted real (e)states"
-       :url         "https://github.com/tolitius/yurt"
-       :scm         {:url "https://github.com/tolitius/yurt"}
+       :url         "https://github.com/coreagile/yurt"
+       :scm         {:url "https://github.com/coreagile/yurt"}
        :license     {"Eclipse Public License"
                      "http://www.eclipse.org/legal/epl-v10.html"}})
